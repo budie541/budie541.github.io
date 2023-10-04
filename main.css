@@ -12,7 +12,6 @@ h1{
 	letter-spacing: -15px;
 	margin-right: 500px;
 	margin-left: 50px;
-
 }
 
 h2{
@@ -55,3 +54,6 @@ body{
 	background-size: cover;
 
 }
+
+.title{
+	font-size:50px}
