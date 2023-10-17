@@ -95,6 +95,7 @@ h3{
 }
 
 .container1 {
+	background-color: black;
  display: grid;
  align-items: center; 
  grid-template-columns: 0.7fr 0.7fr;
