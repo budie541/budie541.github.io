@@ -72,53 +72,79 @@ h2{
 	outline: white solid 10px;
 	z-index: 4;
 }
+
+.text1 {
+  position: relative;
+  margin-top: -300px;
+  height: 500px auto;
+  font-family: arial;
+	font-size: 16px;
+	color: steelblue;
+	text-align: left;
+	margin: -50px;
+}
+
+.text1:hover::after {
+  content: "my cousin texted me and was like hey can i stay over at your place tonight? and i was confused like are you in the city and for what and she said she was doing some visa things for her December plans and it took longer than she thought because she had to go around and print the documents out at FedEx and all these things and she got off her bus at grand central, and theres a FedEx on that block but while she was there she ws already running out of time so she went to the embassy with like half of her documents and then they didnt let her in because she was carrying a duffel bag so she put everything in her duffel into her backpack and then she was let in but she was late and when she got in she was told she went to the wrong building so she had to go around to the other side of the block to go to the other entrace to the other building and then she got her interview done but it was already past when the bus left and this was on a thursday and there are no more buses leaving that day so she had to stay here for a night so i said sure. and so i met up with her when she was done and we went around and got food and fixed the broken wifi in my apt and while we were at dinner she got an email saying that mail is being sent from the embassy to her address and then it became a thing of what is being sent, theres no way its the passport because if it is that means her application got rejected and that would suck ass because that means shed have to go all the way here again to get it done again and would have to pay for everything again but then we met up with her friend for drinks and she went home the day after.";
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 75px;
+  margin-right: 130px;
+  line-height: 15px;
+  font-family: arial;
+  color: white;
+}
+.text2 {
+  position: relative;
+  margin-top: -300px;
+  height: 500px auto;
+  font-family: arial;
+	font-size: 16px;
+	color: steelblue;
+	text-align: left;
+	margin: -50px;
+}
+
+.text2:hover::after {
+  content: ;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 75px;
+  margin-right: 130px;
+  line-height: 15px;
+  font-family: arial;
+  color: white;
+}
+.text3 {
+  position: relative;
+  margin-top: -300px;
+  height: 500px auto;
+  font-family: arial;
+	font-size: 16px;
+	color: steelblue;
+	text-align: left;
+	margin: -50px;
+}
+
+.text3:hover::after {
+  content: ;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 75px;
+  margin-right: 130px;
+  line-height: 15px;
+  font-family: arial;
+  color: white;
+}
+
 .container1 {
  display: grid;
  align-items: center; 
- grid-template-columns: 0.4fr 0.4fr 0.4fr;
- margin: 30px;
-}
-
-.text1 {
-	font-family: monospace;
-	font-size: 16px;
-	color: darkgrey;
-	margin-left: 80px;
-	margin-right: 80px;
-	text-align: left;
-}
-
-.image-container {
-  position: relative;
-  margin-top: -300px;
-  height: 500px auto;
-}
-
-.image-container:hover::after {
-  content: "BYE BYE";
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: rgba(0, 0, 0, 0.5);
-  padding: 10px;
-  font-family: arial;
-  color: white;
-
-}
-
-.image-container1 {
-	background-color: black;
-  position: relative;
-  margin-top: -300px;
-  height: 500px auto;
-}
-
-.image-container1:hover::after {
-  content: "BYE BYE";
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: rgba(0, 0, 0, 0.5);
-  color: #fff;
-  padding: 20px;
+ grid-template-columns: 0.7fr 0.7fr 0.7fr;
+ margin: 50px;
+ margin-left: 180px;
+ margin-top: -400px;
 }
