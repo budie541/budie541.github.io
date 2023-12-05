@@ -16,7 +16,8 @@ body{
 	border-radius: 100px;
 	position: fixed;
 	z-index: 5;
-	margin-top: 50px;
+	margin-left: 130px;
+	margin-top: 10px;
 }
 
 .title:hover:after{
@@ -26,6 +27,13 @@ body{
 	background-color: white;
 	border-radius: 100px;
 	outline: white solid 3px;
+}
+
+.home{
+	position: fixed;
+	text-align: right;
+	margin-left: 7px;
+
 }
 
 .container{
@@ -67,8 +75,8 @@ h2{
 	padding-top: 7px;
 	text-align: center;
 	position: fixed;
-	margin-top: 50px;
-	margin-left: 80px;
+	margin-top: 10px;
+	margin-left: 150px;
 	outline: white solid 10px;
 	z-index: 4;
 }
@@ -101,12 +109,6 @@ ul {
 	flex-direction: row;
 	color: white;
 
-}
-a{
-	justify-content: space-between;
-	background-color: #2B2B2B;
-	padding: 20px;
-	
 }
 
 a:link{

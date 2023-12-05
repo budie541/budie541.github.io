@@ -1,5 +1,4 @@
 img{
-  width: 500px;
   margin-top: 100px;
   margin-left: 200px;
   margin-bottom: 100px;
@@ -19,7 +18,7 @@ h1{
   font-size: 35px;
   text-align: center;
   color: royalblue;
-  margin-bottom: 300px;
+  margin-bottom: 200px;
 }
 
 p{
@@ -31,4 +30,10 @@ p{
   margin-right: 250px;
   line-height: 30px;
   letter-spacing: 3.5px;
+}
+
+.home{
+  width: 250px;
+  margin-left: 400px;
+  margin-bottom: 150px;
 }

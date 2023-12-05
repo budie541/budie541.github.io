@@ -1,8 +1,5 @@
 body {
-	background-color: mintcream;
-}
-div {
-	background-color: white;
+	background-color: whitesmoke;
 }
 h1 {
 	font-size: 30px;
@@ -16,12 +13,18 @@ h3 {
 	color: indianred;
 	margin-top: 50px;
 }
-div {
+p {
 	font-size: 15px;
-	background-color: indianred;
 	padding: 50px;
+	background-color: indianred;
 	color: whitesmoke;
 	margin-left: 50px;
 	margin-right: 50px;
+	margin-top: 50px;
+	width: 700px;
+}
+
+.home{
+	text-align: center;
 	margin-top: 50px;
 }
